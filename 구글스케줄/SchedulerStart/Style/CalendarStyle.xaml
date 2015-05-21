@@ -1,0 +1,297 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="WeekHeaderDayStyle" TargetType="{x:Type Label}">
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Foreground" Value="Gray" />
+        <Setter Property="FontSize" Value="45" />
+    </Style>
+
+    <Style x:Key="WeekHeaderToDayStyle" TargetType="{x:Type Label}">
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="55" />
+    </Style>
+
+    <Style x:Key="WeekHeaderTimeStyle" TargetType="{x:Type Label}">
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+
+    
+    
+    <!-- 여기서부터는 유저가 지정할 색-->
+    <Style x:Key="WeekBorderuser" TargetType="{x:Type Border}">
+        <Setter Property="BorderBrush" Value="White" />
+        <Setter Property="BorderThickness" Value="3 0 0 0" />
+    </Style>
+
+    
+    <Style x:Key="WeekTimeTextBlockuser1" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FF2D97D3" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser1" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="40" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FF2D97D3" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser1" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FF2D97D3" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    
+    <Style x:Key="WeekTimeTextBlockuser2" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FF70C59C" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser2" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="40" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FF70C59C" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser2" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FF70C59C" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style x:Key="WeekTimeTextBlockuser3" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFAAA7D4" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser3" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="40" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFAAA7D4" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser3" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FFAAA7D4" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style x:Key="WeekTimeTextBlockuser4" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFFDBA52" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser4" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFFDBA52" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser4" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FFFDBA52" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style x:Key="WeekTimeTextBlockuser5" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFECA0BD" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser5" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFECA0BD" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser5" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FFECA0BD" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style x:Key="WeekTimeTextBlockuser6" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFF76D3C" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser6" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFF76D3C" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser6" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FFF76D3C" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style x:Key="WeekTimeTextBlockuser7" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFF87073" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser7" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFF87073" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser7" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FFF87073" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style x:Key="WeekTimeTextBlockuser8" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFF9FF91" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser8" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFF9FF91" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser8" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FFF9FF91" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style x:Key="WeekTimeTextBlockuser9" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FF997D65" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser9" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FF997D65" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser9" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FF997D65" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style x:Key="WeekTimeTextBlockuser10" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFDF93FF" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser10" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFDF93FF" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser10" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FFDF93FF" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style x:Key="WeekTimeTextBlockuser11" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFB6B6B6" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser11" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFB6B6B6" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser11" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FFB6B6B6" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+    <Style x:Key="WeekTimeTextBlockuser12" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFB8D37F" />
+    </Style>
+
+    <Style x:Key="WeekContentTextBlockuser12" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Center" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FFB8D37F" />
+    </Style>
+
+    <Style x:Key="DailyTextBlockuser12" TargetType="{x:Type TextBlock}">
+        <Setter Property="TextAlignment"  Value="Left" />
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Padding" Value="10 10 10 10" />
+        <Setter Property="Background" Value="#FFB8D37F" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+
+
+</ResourceDictionary>

@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="SchedulerStart.TimeLine"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="23" d:DesignWidth="300">
+    <Grid Name="TimeLine_Grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="3" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Name="Tb_Time" Foreground="Red" Text="time_now"></TextBlock>
+        <Border Grid.Row="1" BorderThickness="0 0 0 2" BorderBrush="Red"></Border>
+    </Grid>
+</UserControl>
